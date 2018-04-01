@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
   }
 
   long size_one = 1;
-  long size_two = 20000;
+  long size_two = 222;
   long size_three = 2000;
   void* region_one = Mem_Alloc(size_one);
   printf("* region_one starts at %p\n", region_one);
